@@ -3,89 +3,285 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#0F2233" />
+  <meta name="theme-color" content="#071827" />
   <title>SUN GOLD Energia Solar | Juiz de Fora</title>
-  <meta name="description" content="Protótipo comercial para SUN GOLD Energia Solar em Juiz de Fora: energia solar residencial e empresarial com simulação de interesse e atendimento pelo WhatsApp." />
+  <meta name="description" content="Protótipo comercial da SUN GOLD Energia Solar em Juiz de Fora, com qualificação de interesse, simulador e atendimento pelo WhatsApp." />
   <meta name="robots" content="noindex,nofollow" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="theme.css?v=2.0" />
+  <link rel="stylesheet" href="styles.css?v=3.0" />
+  <link rel="stylesheet" href="theme.css?v=3.0" />
 </head>
 <body>
-  <div class="sun-orb" aria-hidden="true"></div>
   <header class="site-header" id="top">
     <div class="container nav">
-      <a class="brand" href="#top" aria-label="SUN GOLD Energia Solar - início"><span class="brand-mark"><i></i></span><span><strong>SUN GOLD</strong><small>ENERGIA SOLAR</small></span></a>
-      <nav class="nav-links" aria-label="Navegação principal"><a href="#solucoes">Soluções</a><a href="#como-funciona">Como funciona</a><a href="#simulador">Simulador</a><a href="#faq">Dúvidas</a></nav>
-      <a class="nav-cta" href="#simulador">Simular meu projeto <span>→</span></a>
-      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+      <a class="brand" href="#top" aria-label="SUN GOLD Energia Solar - início">
+        <span class="brand-mark" aria-hidden="true"><i></i></span>
+        <span><strong>SUN GOLD</strong><small>ENERGIA SOLAR</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#solucoes">Soluções</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#como-funciona">Processo</a>
+        <a href="#simulador">Simulador</a>
+      </nav>
+      <a class="nav-cta" href="#simulador">Analisar meu perfil <span>→</span></a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
     </div>
-    <div class="mobile-nav" id="mobileNav"><a href="#solucoes">Soluções</a><a href="#como-funciona">Como funciona</a><a href="#simulador">Simulador</a><a href="#faq">Dúvidas</a></div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#solucoes">Soluções</a><a href="#projetos">Projetos</a><a href="#como-funciona">Processo</a><a href="#simulador">Simulador</a>
+    </div>
   </header>
 
   <main>
     <section class="hero">
+      <div class="hero-grid-lines" aria-hidden="true"></div>
+      <div class="hero-sun" aria-hidden="true"></div>
       <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <p class="eyebrow">ENERGIA SOLAR EM JUIZ DE FORA</p>
-          <h1>Energia solar com mais clareza, <span>tecnologia e economia.</span></h1>
-          <p class="hero-lead">Descubra o próximo passo para um projeto solar com atendimento rápido, informações organizadas e uma experiência digital feita para gerar oportunidades de orçamento.</p>
-          <div class="hero-actions"><a class="button button-primary" href="#simulador">Simular meu projeto <span>→</span></a><a class="button button-ghost" href="#como-funciona">Entender como funciona</a></div>
-          <div class="trust-row"><div><strong>Juiz de Fora</strong><span>atendimento local</span></div><i></i><div><strong>Residencial</strong><span>projetos sob análise</span></div><i></i><div><strong>Empresarial</strong><span>soluções sob medida</span></div></div>
+          <div class="hero-kicker"><span></span> ENERGIA SOLAR · JUIZ DE FORA</div>
+          <h1>Mais controle sobre a sua energia. <em>Mais clareza para decidir.</em></h1>
+          <p class="hero-lead">Uma experiência criada para transformar interesse em energia solar em uma conversa comercial mais rápida, organizada e qualificada com a SUN GOLD.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#simulador">Analisar meu perfil <span>→</span></a>
+            <a class="button button-ghost" href="#projetos">Conhecer a estrutura</a>
+          </div>
+          <div class="hero-proof">
+            <div><span>01</span><p><strong>Perfil do imóvel</strong><small>residencial ou empresarial</small></p></div>
+            <div><span>02</span><p><strong>Faixa de consumo</strong><small>contexto antes do contato</small></p></div>
+            <div><span>03</span><p><strong>Atendimento direto</strong><small>resumo pronto no WhatsApp</small></p></div>
+          </div>
         </div>
-        <div class="hero-visual reveal delay-1" aria-label="Visualização conceitual de geração solar">
-          <div class="sky-glow"></div>
-          <div class="energy-card"><div class="energy-card-top"><span>PROJETO SOLAR</span><strong>SUN / 01</strong></div><div class="panel-field" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="energy-line"><span></span></div><div class="energy-info"><div><small>OBJETIVO</small><strong>Reduzir dependência da rede</strong></div><div><small>PRÓXIMO PASSO</small><strong>Dimensionamento</strong></div></div></div>
-          <div class="floating-metric metric-a"><small>01</small><strong>Conta de energia</strong><span>ponto de partida</span></div><div class="floating-metric metric-b"><small>02</small><strong>Perfil do imóvel</strong><span>residencial ou empresa</span></div><div class="solar-disc" aria-hidden="true"></div>
+
+        <div class="hero-stage reveal delay-1" aria-label="Painel conceitual de energia solar">
+          <div class="stage-label">SUN GOLD / SOLAR SYSTEM</div>
+          <div class="panel-array" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="energy-beam" aria-hidden="true"></div>
+          <div class="stage-card stage-card-main">
+            <small>PRÓXIMO PASSO</small>
+            <strong>Dimensionar o projeto</strong>
+            <span>A partir do perfil de consumo</span>
+          </div>
+          <div class="stage-card stage-card-mini">
+            <span class="pulse"></span>
+            <div><small>ATENDIMENTO</small><strong>Juiz de Fora · MG</strong></div>
+          </div>
+          <div class="stage-number">SOLAR<br><b>03</b></div>
         </div>
       </div>
-      <div class="hero-ticker" aria-hidden="true"><div>SOLAR · PROJETO · ECONOMIA · DIMENSIONAMENTO · ENERGIA · JUIZ DE FORA ·</div></div>
+      <div class="hero-rail" aria-hidden="true"><span>SUN GOLD</span><i></i><span>ENERGIA SOLAR</span><i></i><span>PROJETO</span><i></i><span>DIMENSIONAMENTO</span><i></i><span>JUIZ DE FORA</span></div>
     </section>
 
-    <section class="section intro-band"><div class="container intro-grid reveal"><p class="eyebrow dark">UMA DECISÃO MAIS CLARA</p><h2>Antes de vender painéis, <span>é preciso entender o consumo.</span></h2><p>O site conduz o visitante por um caminho simples: perfil do imóvel, valor aproximado da conta, contexto e contato. A equipe recebe uma conversa mais organizada para continuar o atendimento.</p></div></section>
+    <section class="trust-strip">
+      <div class="container trust-strip-grid">
+        <div><strong>Atendimento local</strong><span>Juiz de Fora e região</span></div>
+        <div><strong>Residencial + empresarial</strong><span>jornadas separadas por perfil</span></div>
+        <div><strong>Análise personalizada</strong><span>sem promessa genérica de economia</span></div>
+        <div><strong>Contato qualificado</strong><span>informações essenciais antes da conversa</span></div>
+      </div>
+    </section>
 
     <section class="section solutions" id="solucoes">
       <div class="container">
-        <div class="section-heading reveal"><div><p class="eyebrow">SOLUÇÕES</p><h2>Energia solar para diferentes rotinas de consumo.</h2></div><p>Uma apresentação simples para o cliente entender onde se encaixa antes de falar com a equipe.</p></div>
-        <div class="solution-grid">
-          <article class="solution-card reveal"><span class="card-index">01</span><div class="card-icon house-icon"><i></i><i></i></div><h3>Residencial</h3><p>Para quem quer avaliar a geração solar em casa e entender o próximo passo a partir da conta de energia.</p><a href="#simulador" data-profile="Residencial">Simular residência <span>→</span></a></article>
-          <article class="solution-card reveal delay-1"><span class="card-index">02</span><div class="card-icon business-icon"><i></i><i></i><i></i></div><h3>Empresarial</h3><p>Para negócios que querem analisar consumo, previsibilidade e uma solução dimensionada para sua operação.</p><a href="#simulador" data-profile="Empresarial">Simular empresa <span>→</span></a></article>
-          <article class="solution-card featured reveal delay-2"><span class="card-index">03</span><div class="card-icon route-icon"><i></i></div><h3>Projeto orientado</h3><p>O visitante não precisa entender termos técnicos: ele informa o essencial e a equipe conduz o dimensionamento.</p><a href="#como-funciona">Ver o processo <span>→</span></a></article>
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">SOLUÇÕES</p><h2>Uma jornada simples para uma decisão que exige confiança.</h2></div>
+          <p>O visitante entende o caminho, identifica seu perfil e avança para uma análise sem precisar dominar termos técnicos.</p>
         </div>
+        <div class="solution-grid">
+          <article class="solution-card reveal">
+            <span class="card-index">01</span><div class="card-symbol house-symbol" aria-hidden="true"></div>
+            <h3>Residencial</h3><p>Para quem quer avaliar energia solar em casa com base no perfil de consumo e no momento da decisão.</p>
+            <a href="#simulador" data-profile="Residencial">Analisar residência <span>↗</span></a>
+          </article>
+          <article class="solution-card reveal delay-1">
+            <span class="card-index">02</span><div class="card-symbol company-symbol" aria-hidden="true"></div>
+            <h3>Empresarial</h3><p>Para negócios que querem organizar a análise de consumo e avaliar uma solução adequada à operação.</p>
+            <a href="#simulador" data-profile="Empresarial">Analisar empresa <span>↗</span></a>
+          </article>
+          <article class="solution-card dark reveal delay-2">
+            <span class="card-index">03</span><div class="card-symbol route-symbol" aria-hidden="true"></div>
+            <h3>Atendimento orientado</h3><p>O simulador entrega contexto comercial para a equipe continuar a conversa com mais objetividade.</p>
+            <a href="#como-funciona">Ver processo <span>↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projetos">
+      <div class="container">
+        <div class="section-heading projects-heading reveal">
+          <div><p class="eyebrow">PROJETOS SUN GOLD</p><h2>Uma vitrine pronta para transformar instalações reais em prova de confiança.</h2></div>
+          <p>A estrutura abaixo está preparada para receber fotos, cidade, perfil, potência e contexto dos projetos reais fornecidos pela SUN GOLD.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-large reveal">
+            <div class="project-visual placeholder-visual residential-visual">
+              <span class="placeholder-tag">ESPAÇO PARA FOTO REAL</span>
+              <div class="placeholder-panel-grid" aria-hidden="true"></div>
+            </div>
+            <div class="project-meta"><div><small>CASE 01 · RESIDENCIAL</small><h3>Projeto residencial em destaque</h3></div><span>Juiz de Fora · MG</span></div>
+            <p>Área preparada para apresentar contexto do cliente, solução adotada e dados técnicos validados pela empresa.</p>
+          </article>
+
+          <article class="project-card reveal delay-1">
+            <div class="project-visual placeholder-visual business-visual"><span class="placeholder-tag">FOTO DO PROJETO</span><div class="placeholder-panel-grid" aria-hidden="true"></div></div>
+            <div class="project-meta"><div><small>CASE 02 · EMPRESARIAL</small><h3>Projeto empresarial</h3></div></div>
+            <p>Pronto para receber uma instalação comercial real, com informações aprovadas pela SUN GOLD.</p>
+          </article>
+
+          <article class="project-card reveal delay-2">
+            <div class="project-visual placeholder-visual custom-visual"><span class="placeholder-tag">FOTO DO PROJETO</span><div class="placeholder-panel-grid" aria-hidden="true"></div></div>
+            <div class="project-meta"><div><small>CASE 03 · SOB MEDIDA</small><h3>Solução personalizada</h3></div></div>
+            <p>Espaço para um case que mostre capacidade de adaptação a diferentes perfis de consumo.</p>
+          </article>
+        </div>
+
+        <div class="projects-note reveal"><span>+</span><p><strong>Pronto para conteúdo real.</strong> Nenhuma instalação, potência, economia ou resultado foi inventado nesta demonstração.</p></div>
       </div>
     </section>
 
     <section class="section process" id="como-funciona">
       <div class="container">
-        <div class="section-heading light reveal"><div><p class="eyebrow light">COMO FUNCIONA</p><h2>Do interesse ao orçamento, sem complicar.</h2></div><p>Uma jornada feita para reduzir atrito e preparar melhor o primeiro contato comercial.</p></div>
-        <div class="steps"><article class="step reveal"><strong>01</strong><div><h3>Perfil</h3><p>Residência ou empresa: o cliente começa pelo contexto do imóvel.</p></div></article><article class="step reveal"><strong>02</strong><div><h3>Conta mensal</h3><p>O valor aproximado ajuda a equipe a entender a faixa de consumo.</p></div></article><article class="step reveal"><strong>03</strong><div><h3>Qualificação</h3><p>O visitante informa cidade e prioridade sem preencher um formulário cansativo.</p></div></article><article class="step reveal"><strong>04</strong><div><h3>WhatsApp</h3><p>A conversa abre com o resumo do perfil para o atendimento continuar com contexto.</p></div></article></div>
+        <div class="section-heading light reveal">
+          <div><p class="eyebrow light">COMO FUNCIONA</p><h2>Menos formulário. Mais contexto comercial.</h2></div>
+          <p>A experiência qualifica o interesse em cinco etapas curtas antes de abrir a conversa no WhatsApp.</p>
+        </div>
+        <div class="process-track">
+          <article class="process-step reveal"><span>01</span><h3>Perfil</h3><p>Residencial ou empresarial.</p></article>
+          <article class="process-step reveal delay-1"><span>02</span><h3>Consumo</h3><p>Faixa aproximada da conta.</p></article>
+          <article class="process-step reveal delay-2"><span>03</span><h3>Objetivo</h3><p>O que motivou a busca.</p></article>
+          <article class="process-step reveal"><span>04</span><h3>Prazo</h3><p>Momento da decisão.</p></article>
+          <article class="process-step reveal delay-1"><span>05</span><h3>Contato</h3><p>Resumo pronto para atendimento.</p></article>
+        </div>
       </div>
     </section>
 
     <section class="section simulator" id="simulador">
       <div class="container simulator-grid">
-        <div class="sim-copy reveal"><p class="eyebrow">SIMULAÇÃO DE INTERESSE</p><h2>Conte um pouco do seu consumo.</h2><p>Esta demonstração não calcula uma proposta técnica. Ela organiza as informações principais para a equipe preparar um dimensionamento personalizado.</p><div class="sim-proof"><span></span><p><strong>Sem promessa genérica.</strong> O resultado técnico depende do consumo, do imóvel, da irradiação, dos equipamentos e da análise da empresa.</p></div></div>
-        <form class="sim-card reveal delay-1" id="solarForm">
-          <div class="progress"><span id="simProgress"></span></div><div class="form-top"><small>SIMULADOR · SUN GOLD</small><span id="stepCounter">01 / 03</span></div>
-          <div class="form-step active" data-step="1"><label>Onde seria o projeto?</label><div class="choice-grid"><button type="button" class="choice" data-value="Residencial"><span>CASA</span><strong>Residencial</strong><small>Para consumo doméstico</small></button><button type="button" class="choice" data-value="Empresarial"><span>EMPRESA</span><strong>Empresarial</strong><small>Para operação comercial</small></button></div></div>
-          <div class="form-step" data-step="2"><label for="billRange">Qual o valor aproximado da conta mensal?</label><div class="bill-output"><span>R$</span><strong id="billValue">450</strong><small>/ mês</small></div><input id="billRange" type="range" min="100" max="3000" step="50" value="450" /><div class="range-labels"><span>R$ 100</span><span>R$ 3.000+</span></div></div>
-          <div class="form-step" data-step="3"><label>Como a equipe pode continuar o atendimento?</label><div class="field-grid"><label class="field"><span>Seu nome</span><input id="leadName" type="text" autocomplete="name" placeholder="Nome" required /></label><label class="field"><span>Cidade</span><input id="leadCity" type="text" value="Juiz de Fora" required /></label></div><label class="field"><span>WhatsApp</span><input id="leadPhone" type="tel" autocomplete="tel" placeholder="(32) 99999-9999" required /></label><p class="privacy-note">Os dados ficam apenas na mensagem que será aberta no WhatsApp nesta demonstração.</p></div>
-          <div class="form-actions"><button class="back-btn" type="button" id="backBtn" disabled>Voltar</button><button class="next-btn" type="button" id="nextBtn">Continuar <span>→</span></button></div>
+        <div class="sim-copy reveal">
+          <p class="eyebrow">ANÁLISE DE PERFIL</p>
+          <h2>Em menos de um minuto, organize as informações para uma análise inicial.</h2>
+          <p>O simulador não promete economia nem substitui o dimensionamento técnico. Ele prepara o primeiro contato para a equipe entender melhor o seu momento.</p>
+          <div class="sim-badges"><span>5 etapas rápidas</span><span>sem cálculo genérico</span><span>WhatsApp no final</span></div>
+          <div class="sim-side-card">
+            <small>O QUE A EQUIPE RECEBE</small>
+            <ul><li>tipo do projeto</li><li>faixa da conta</li><li>objetivo principal</li><li>prazo de decisão</li><li>cidade e contato</li></ul>
+          </div>
+        </div>
+
+        <form class="sim-card reveal delay-1" id="solarForm" novalidate>
+          <div class="sim-topbar"><div><small>SUN GOLD · ANÁLISE INICIAL</small><strong id="stepLabel">Perfil do projeto</strong></div><span id="stepCounter">01 / 05</span></div>
+          <div class="progress"><span id="simProgress"></span></div>
+
+          <div class="form-step active" data-step="1" data-label="Perfil do projeto">
+            <p class="step-question">Onde seria o projeto?</p>
+            <div class="choice-grid two">
+              <button type="button" class="choice" data-group="profile" data-value="Residencial"><span>CASA</span><strong>Residencial</strong><small>Consumo doméstico</small></button>
+              <button type="button" class="choice" data-group="profile" data-value="Empresarial"><span>EMPRESA</span><strong>Empresarial</strong><small>Operação comercial</small></button>
+            </div>
+          </div>
+
+          <div class="form-step" data-step="2" data-label="Faixa de consumo">
+            <p class="step-question">Qual é a faixa aproximada da conta mensal?</p>
+            <div class="choice-grid bill-choices">
+              <button type="button" class="choice compact" data-group="bill" data-value="Até R$ 300"><strong>Até R$ 300</strong><small>por mês</small></button>
+              <button type="button" class="choice compact" data-group="bill" data-value="R$ 300 a R$ 700"><strong>R$ 300–700</strong><small>por mês</small></button>
+              <button type="button" class="choice compact" data-group="bill" data-value="R$ 700 a R$ 1.500"><strong>R$ 700–1.500</strong><small>por mês</small></button>
+              <button type="button" class="choice compact" data-group="bill" data-value="Acima de R$ 1.500"><strong>R$ 1.500+</strong><small>por mês</small></button>
+            </div>
+          </div>
+
+          <div class="form-step" data-step="3" data-label="Objetivo principal">
+            <p class="step-question">O que você busca neste momento?</p>
+            <div class="choice-list">
+              <button type="button" class="choice line" data-group="goal" data-value="Reduzir a conta de energia"><span>01</span><strong>Reduzir a conta de energia</strong><b>→</b></button>
+              <button type="button" class="choice line" data-group="goal" data-value="Entender a viabilidade"><span>02</span><strong>Entender a viabilidade</strong><b>→</b></button>
+              <button type="button" class="choice line" data-group="goal" data-value="Solicitar orçamento"><span>03</span><strong>Solicitar orçamento</strong><b>→</b></button>
+              <button type="button" class="choice line" data-group="goal" data-value="Planejar um investimento futuro"><span>04</span><strong>Planejar um investimento futuro</strong><b>→</b></button>
+            </div>
+          </div>
+
+          <div class="form-step" data-step="4" data-label="Momento da decisão">
+            <p class="step-question">Em que momento você pretende avançar?</p>
+            <div class="choice-grid two">
+              <button type="button" class="choice compact" data-group="timeline" data-value="O quanto antes"><strong>O quanto antes</strong><small>quero entender os próximos passos</small></button>
+              <button type="button" class="choice compact" data-group="timeline" data-value="Nos próximos 30 dias"><strong>Próximos 30 dias</strong><small>estou avaliando agora</small></button>
+              <button type="button" class="choice compact" data-group="timeline" data-value="Nos próximos 3 meses"><strong>Próximos 3 meses</strong><small>quero me planejar</small></button>
+              <button type="button" class="choice compact" data-group="timeline" data-value="Ainda estou pesquisando"><strong>Estou pesquisando</strong><small>quero conhecer melhor</small></button>
+            </div>
+          </div>
+
+          <div class="form-step" data-step="5" data-label="Seus dados">
+            <p class="step-question">Para onde a SUN GOLD pode retornar a análise?</p>
+            <div class="field-grid">
+              <label class="field"><span>Seu nome</span><input id="leadName" type="text" autocomplete="name" placeholder="Nome" /></label>
+              <label class="field"><span>Cidade</span><input id="leadCity" type="text" value="Juiz de Fora" /></label>
+            </div>
+            <label class="field"><span>WhatsApp</span><input id="leadPhone" type="tel" autocomplete="tel" placeholder="(32) 99999-9999" /></label>
+            <label class="consent"><input id="leadConsent" type="checkbox" /> <span>Quero enviar estas informações pelo WhatsApp para solicitar uma análise inicial.</span></label>
+          </div>
+
+          <div class="form-step result-step" data-step="result" data-label="Perfil pronto">
+            <div class="result-badge"><span></span> PERFIL ORGANIZADO PARA ANÁLISE</div>
+            <h3>Seu resumo está pronto.</h3>
+            <p>Confira as informações antes de abrir a conversa com a SUN GOLD.</p>
+            <div class="result-summary" id="resultSummary"></div>
+            <div class="result-note"><strong>Importante:</strong> este resumo não é uma proposta, estimativa de economia ou dimensionamento técnico.</div>
+          </div>
+
+          <div class="form-actions">
+            <button class="back-btn" type="button" id="backBtn" disabled>Voltar</button>
+            <button class="next-btn" type="button" id="nextBtn">Continuar <span>→</span></button>
+          </div>
         </form>
       </div>
     </section>
 
-    <section class="section local-section"><div class="container local-grid reveal"><div><p class="eyebrow light">JUIZ DE FORA · MG</p><h2>Uma experiência digital pensada para gerar conversas comerciais.</h2></div><div class="local-card"><small>ATENDIMENTO PÚBLICO ENCONTRADO</small><strong>SUN GOLD Energia Solar</strong><span>Av. Presidente Costa e Silva, 1515 · São Pedro</span><a href="https://wa.me/5532984494714" target="_blank" rel="noreferrer">(32) 98449-4714 <b>↗</b></a></div></div></section>
+    <section class="section why">
+      <div class="container why-grid">
+        <div class="why-copy reveal"><p class="eyebrow light">POR QUE ESSA ESTRUTURA FUNCIONA</p><h2>O digital prepara a conversa antes do primeiro “olá”.</h2></div>
+        <div class="why-list reveal delay-1">
+          <article><span>01</span><div><h3>Mais contexto</h3><p>A equipe sabe quem está chegando e o que a pessoa procura.</p></div></article>
+          <article><span>02</span><div><h3>Menos atrito</h3><p>O interessado responde apenas o necessário, em uma sequência curta.</p></div></article>
+          <article><span>03</span><div><h3>Mais confiança</h3><p>Projetos reais podem demonstrar capacidade sem depender só de promessa comercial.</p></div></article>
+        </div>
+      </div>
+    </section>
 
-    <section class="section faq" id="faq"><div class="container faq-grid"><div class="faq-heading reveal"><p class="eyebrow">DÚVIDAS</p><h2>O cliente entende antes de chamar.</h2><p>Uma boa página responde objeções básicas sem substituir a análise técnica da equipe.</p></div><div class="faq-list reveal delay-1"><details><summary>O simulador mostra a economia exata?</summary><p>Não. Nesta demonstração ele qualifica o interesse e organiza as informações iniciais. Uma proposta real exige dimensionamento técnico da empresa.</p></details><details><summary>Serve para residência e empresa?</summary><p>Sim. A jornada diferencia o perfil logo no início e leva essa informação para o atendimento.</p></details><details><summary>O pedido vai para o WhatsApp?</summary><p>Sim. Ao concluir, a demonstração abre uma mensagem pronta com o resumo do cliente para a SUN GOLD.</p></details><details><summary>É possível integrar campanhas e analytics?</summary><p>Sim. A versão comercial pode medir origem do lead, abertura do simulador, conclusão e cliques no WhatsApp, sem enviar dados pessoais para ferramentas de analytics.</p></details></div></div></section>
+    <section class="section faq" id="faq">
+      <div class="container faq-grid">
+        <div class="faq-heading reveal"><p class="eyebrow">DÚVIDAS</p><h2>Informação antes da decisão.</h2><p>A página tira dúvidas básicas sem substituir a avaliação técnica da SUN GOLD.</p></div>
+        <div class="faq-list reveal delay-1">
+          <details><summary>O simulador calcula economia?</summary><p>Não. Ele organiza o perfil do interessado. Qualquer projeção depende de consumo, imóvel, irradiação, equipamentos e análise técnica.</p></details>
+          <details><summary>Posso usar para empresa?</summary><p>Sim. A primeira etapa diferencia residencial e empresarial para que o atendimento receba esse contexto.</p></details>
+          <details><summary>Os projetos mostrados são reais?</summary><p>A estrutura está preparada para receber projetos reais, mas esta versão demonstrativa não inventa instalações, resultados ou fotos da SUN GOLD.</p></details>
+          <details><summary>O resultado vai para o WhatsApp?</summary><p>Sim. Depois de revisar o resumo, o interessado pode abrir uma mensagem estruturada para continuar o atendimento.</p></details>
+        </div>
+      </div>
+    </section>
 
-    <section class="final-cta"><div class="container final-inner reveal"><p class="eyebrow light">ENERGIA QUE CONVERTE EM OPORTUNIDADE</p><h2>Transforme interesse em <span>pedido de orçamento.</span></h2><a class="button button-sun" href="#simulador">Começar simulação <span>→</span></a></div></section>
+    <section class="final-cta">
+      <div class="container final-inner reveal">
+        <div><p class="eyebrow dark">PRÓXIMO PASSO</p><h2>Transforme interesse em uma conversa comercial melhor preparada.</h2></div>
+        <a class="button button-dark" href="#simulador">Analisar meu perfil <span>→</span></a>
+      </div>
+    </section>
   </main>
 
-  <footer class="footer"><div class="container footer-grid"><div class="brand footer-brand"><span class="brand-mark"><i></i></span><span><strong>SUN GOLD</strong><small>ENERGIA SOLAR</small></span></div><p>Protótipo comercial não oficial. Conteúdo, identidade, dados, condições e materiais devem ser validados pela empresa antes de publicação oficial.</p><a href="#top">Voltar ao topo ↑</a></div></footer>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="brand footer-brand"><span class="brand-mark"><i></i></span><span><strong>SUN GOLD</strong><small>ENERGIA SOLAR</small></span></div>
+      <p>Protótipo comercial não oficial. Identidade, projetos, resultados, garantias, condições e dados técnicos devem ser fornecidos ou validados pela SUN GOLD antes do uso oficial.</p>
+      <a href="#top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="app.js"></script>
+  <script src="app.js?v=3.0"></script>
 </body>
 </html>

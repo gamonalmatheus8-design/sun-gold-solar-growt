@@ -1,21 +1,21 @@
-# SUN GOLD — Solar Growth
+# SUN GOLD — Solar Growth V3
 
-Protótipo comercial demonstrativo de landing page para captação e qualificação de leads de energia solar.
+Protótipo comercial demonstrativo para captação e qualificação de leads de energia solar.
+
+## V3
+- Hero Solar Tech com identidade visual mais forte
+- Simulador comercial em 5 etapas
+- Resumo do perfil antes de abrir o WhatsApp
+- Seção preparada para projetos reais da SUN GOLD
+- Jornada residencial e empresarial
+- Responsivo para desktop e mobile
 
 ## Estrutura
 - `index.html` — página principal
-- `styles.css` — estrutura visual
+- `styles.css` — layout e responsividade
 - `theme.css` — identidade Solar Tech Premium
 - `app.js` — simulador e interações
-- `vercel.json` — configuração de deploy
-
-## Objetivo
-Conduzir visitantes de Google, Instagram, anúncios e indicações até uma solicitação de análise/orçamento pelo WhatsApp, com informações iniciais do perfil do interessado.
-
-## Publicação
-Projeto estático, compatível com Vercel sem etapa de build.
-
-Deploy automático via GitHub/Vercel validado em 11/09/2026.
+- `vercel.json` — configuração do deploy
 
 ## Importante
-Este é um protótipo não oficial. Identidade oficial, projetos, depoimentos, condições comerciais, garantias e estimativas de economia devem ser fornecidos ou validados pela SUN GOLD antes de uso oficial.
+Este é um protótipo não oficial. Fotos, projetos, potência instalada, economia, resultados, depoimentos, garantias e condições comerciais só devem ser publicados quando fornecidos ou validados pela SUN GOLD.
