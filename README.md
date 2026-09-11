@@ -15,5 +15,7 @@ Conduzir visitantes de Google, Instagram, anúncios e indicações até uma soli
 ## Publicação
 Projeto estático, compatível com Vercel sem etapa de build.
 
+Deploy automático via GitHub/Vercel validado em 11/09/2026.
+
 ## Importante
 Este é um protótipo não oficial. Identidade oficial, projetos, depoimentos, condições comerciais, garantias e estimativas de economia devem ser fornecidos ou validados pela SUN GOLD antes de uso oficial.
